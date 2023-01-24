@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='App_main'>
       <Contact_fixed/>
-      {/* <Hero/> */}
+      <Hero/>
       {/* <Skills/>
       <Projects/>
       <Work/> */}
