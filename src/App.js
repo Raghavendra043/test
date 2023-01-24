@@ -12,9 +12,9 @@ function App() {
     <div className='App_main'>
       <Contact_fixed/>
       <Hero/>
-      {/* <Skills/>
+      <Skills/>
       <Projects/>
-      <Work/> */}
+      <Work/>
 
       {/* <Test/> */}
     </div>
