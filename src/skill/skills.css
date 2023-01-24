@@ -1,0 +1,228 @@
+
+.container {
+    background-color: #1F1F23;    
+}
+
+
+.s_title{
+    font-family: 'Harmattan', sans-serif;
+    font-weight: 700;
+    font-size: 11rem;
+    color: #C3073F ;
+    opacity: 0.2;
+    margin-left: 8%;
+}
+.parent {
+    display: flex;
+}
+.content {
+    width: 40vw;
+    margin-left: 10%;
+    color: white;
+}
+.Sphere{
+    position: relative;
+    top: -30vh;
+    left: 4vw;
+    color: #A3FAF4;
+    font-family: 'Harmattan', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.bio{
+    position: relative;
+    top: -65vh;
+}
+
+.adjust {
+    margin-left: 10%;
+    color: white;
+    margin-bottom: 2rem;
+    
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    margin-left: 10%;
+}
+.ball1, .ball2, .ball3, .ball4, .ball5{
+    width: 0.7vw;
+    height: 0.7vw;
+    border-radius: 50%;
+    border-color: #C3073F;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.length {
+    margin-left: 10%;
+    color: white;
+    display: flex;
+    gap: 11vw;
+}
+
+
+@media (min-width:320px) and (max-width:480px)  { 
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+    .s_title{
+        position: relative;
+        font-size: 7.5rem;
+        width: 150vw;
+    }
+    .Sphere{
+        display: none;
+    }
+    .content{
+        width: 100vw;
+    }
+    .bio{
+        top: 7vh;
+        margin-left: 2vw;
+    }
+    .container{
+        margin-bottom: 0vh;
+    }
+    .ball1, .ball2, .ball3, .ball4, .ball5{
+        width: 3vw;
+        height: 3vw;
+        position: relative;
+        top: -1vh;
+    }
+    .length {
+        margin-left: 10%;
+        display: flex;
+        gap: 13vw;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:640px) { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .Sphere{
+        display: none;
+    }
+    .s_title{
+        position: relative;
+        font-size: 7.5rem;
+        width: 150vw;
+    }
+    .Sphere{
+        display: none;
+    }
+    .content{
+        width: 100vw;
+    }
+    .bio{
+        top: 7vh;
+        margin-left: 2vw;
+    }
+    .container{
+        margin-bottom: 0vh;
+    }
+    .ball1, .ball2, .ball3, .ball4, .ball5{
+        width: 3vw;
+        height: 3vw;
+        position: relative;
+        top: -1vh;
+    }
+    .length {
+        margin-left: 10%;
+        display: flex;
+        gap: 13vw;
+    }
+}
+@media (min-width:641px) and (max-width:960px) { 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .Sphere{
+        display: none;
+    }
+    .s_title{
+        position: relative;
+        font-size: 6rem;
+    }
+    .bio{
+        top: 10vh;
+        margin-left: 0vw;
+    }
+    .content{
+        width: 70vw;
+    }
+}
+@media (min-width:961px) and (max-width:1024px) { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .Sphere{
+        display: none;
+    }
+    .s_title{
+        position: relative;
+        font-size: 8rem;
+    }
+    .content{
+        width: 60vw;
+    }
+    .bio{
+        top: 10vh;
+        margin-left: 0vw;
+    }
+    .container{
+        margin-bottom: 0vh;
+    }
+    .ball1, .ball2, .ball3, .ball4, .ball5{
+        width: 1vw;
+        height: 1vw;
+        position: relative;
+        top: -2vh;
+        left: 0vw;
+    }
+    .length {
+        margin-left: 10%;
+        display: flex;
+        gap: 13vw;
+    }
+}
+@media (min-width:1025px) and (max-width:1280px) {
+     /* big landscape tablets, laptops, and desktops */ 
+     .Sphere{
+        position: relative;
+        top: -20vh;
+        left: -3vw;
+        font-family: 'Harmattan', sans-serif;
+        font-weight: 700;
+        font-size: 1.4rem;
+    }
+    .s_title{
+        position: relative;
+        font-size: 8rem;
+    }
+    .content{
+        width: 100vw;
+    }
+    .bio{
+        top: -70vh;
+        margin-left: 0vw;
+    }
+    .container{
+        margin-bottom: 0vh;
+    }
+    .ball1, .ball2, .ball3, .ball4, .ball5{
+        width: 1vw;
+        height: 1vw;
+        position: relative;
+        top: -2vh;
+        left: 0vw;
+    }
+    .length {
+        margin-left: 10%;
+        display: flex;
+        gap: 13vw;
+    }
+}
+
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    .Sphere{
+        left: -2vw;
+    }
+}

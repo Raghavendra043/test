@@ -1,0 +1,56 @@
+.side_contact{
+    bottom: 0vh;
+    position: fixed;
+    left: 20px ;    
+    text-align: center;
+}
+
+.terminal{
+    position: fixed;
+    right: 60px;
+    top: 60px;
+}
+
+@media (min-width:320px) and (max-width:480px)  { 
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+    .side_contact{
+        display: none;
+    }
+}
+
+@media (min-width:481px) and (max-width:640px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+
+    .side_contact{
+        display: none;
+    }
+}
+
+@media (min-width:641px) and (max-width:960px) { 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .side_contact{
+        display: none;
+    }
+}
+@media (min-width:961px) and (max-width:1024px) { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .side_contact{
+        display: none;
+    }
+}
+@media (min-width:1025px) and (max-width:1280px) {
+     /* big landscape tablets, laptops, and desktops */ 
+     .side_contact{
+        display: none;
+    }
+}
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+
+    .insta, .git, .link, .mail {
+        width: 30px;
+        height: 30px;
+    }
+    .line {
+        height: 100px;
+    }
+}
